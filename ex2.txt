@@ -1,0 +1,5 @@
+public double ariaCerc(int r) {
+        double rez =  Math.PI * r * r;
+        return rez;
+}
+string d = "Sergiu"

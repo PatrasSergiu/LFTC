@@ -1,0 +1,14 @@
+public int cmmdc(int a, int b) {
+        if(a * b == 0)
+            return a + b;
+
+        while(a != b) {
+            if(a > b) {
+                a = a - b;
+            }
+            if (b < a) {
+                b = b - a;
+            }
+        }
+        return a;
+}

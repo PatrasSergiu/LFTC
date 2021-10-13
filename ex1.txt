@@ -1,0 +1,4 @@
+public double perimetruCerc(int r) {
+        double rez = 2 * Math.PI * r;
+        return rez;
+}
